@@ -1,4 +1,4 @@
-open-close:  compute opening & closing times for controls on short (<600k)
+open-close:  compute opening & closing times for controls on short (<=600k)
 brevets & permanents.
 
 
