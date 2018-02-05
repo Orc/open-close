@@ -1,0 +1,29 @@
+open-close:  compute opening & closing times for controls on short (<600k)
+brevets & permanents.
+
+
+USAGE:
+
+     open-close [start-time] control-distance {control-distance}
+
+
+start-time, if specified, is a 24 hour time in the format h:mm
+
+control-distance is, by default, in km, but may be suffixed with
+'m' or 'M' to give it in miles.
+
+
+EXAMPLE:
+
+    To get the opening and closing time for the 100k populaire
+    "Sauvie Island On A Shoestring", with 2 controls, starting @ 8am.
+
+    open-close 8:00 0 100
+
+    (or)
+
+    open-close 8:00 0m 62.1m
+
+    (or)
+
+    open-close 8:00 0m 100km
